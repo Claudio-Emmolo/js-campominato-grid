@@ -1,0 +1,16 @@
+main{
+    background-color: rgb(78, 212, 139);
+    height: 90vh;
+}
+
+div.square-box{
+    width: 700px;
+    height: 700px;
+    border: 2px solid black;
+}
+
+div.square{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2px solid black;
+}
