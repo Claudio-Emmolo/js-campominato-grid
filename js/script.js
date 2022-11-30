@@ -17,12 +17,18 @@ const btn = document.getElementById ("start");
 
 const squareBox = document.querySelector ("div.square-box");
 
+btn.addEventListener('click', function(){
 
-
-for (let i = 0 ; i < 100 ; i++){
-    const divElement = document.createElement ("div");
-    divElement.innerText = (i + 1);
-    squareBox.append(divElement);
+    for (let i = 0 ; i < 100 ; i++){
+        const divElement = document.createElement ("div");
+        divElement.innerText = (i + 1);
+        squareBox.append(divElement);
     
-    console.log(i + 1);
-}
+        console.log(i + 1);
+    }
+    
+})
+
+
+
+// ----------------- FUNCTIONS ----------------- //
