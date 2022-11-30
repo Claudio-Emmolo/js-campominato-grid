@@ -13,8 +13,16 @@
 
 // 3 - Dopo aver generato i "square", con la funzione ".innerText" aggiungo i numeri generati da [i] (+ 1) OPPURE faccio partire il for da (i = 1 ; i <= 100);
 
+const btn = document.getElementById ("start");
+
+const squareBox = document.querySelector ("div.square-box");
+
 
 
 for (let i = 0 ; i < 100 ; i++){
-    console.log(i + 1)
+    const divElement = document.createElement ("div");
+    divElement.innerText = (i + 1);
+    squareBox.append(divElement);
+    
+    console.log(i + 1);
 }
