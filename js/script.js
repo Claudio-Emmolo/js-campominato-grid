@@ -19,6 +19,8 @@ const squareBox = document.querySelector ("div.square-box");
 
 btn.addEventListener('click', function(){
 
+    squareBox.innerHTML = "";
+
     for (let i = 0 ; i < 100 ; i++){
         const AddDiv = getDivElement();
         AddDiv.addEventListener('click', function(){
