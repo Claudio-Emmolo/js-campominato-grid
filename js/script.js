@@ -12,3 +12,9 @@
     // 2.1 Aggiungo un altro addEventList per cambiare il bg-color della cella al click;
 
 // 3 - Dopo aver generato i "square", con la funzione ".innerText" aggiungo i numeri generati da [i] (+ 1) OPPURE faccio partire il for da (i = 1 ; i <= 100);
+
+
+
+for (let i = 0 ; i < 100 ; i++){
+    console.log(i + 1)
+}
