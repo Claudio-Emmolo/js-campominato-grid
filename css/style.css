@@ -19,3 +19,11 @@ div.square{
 div.square.active{
     background-color: rgb(46, 137, 255);
 }
+
+div.logo img{
+    height: 80px;
+}
+
+div.logo h1{
+    font-size: 3rem;
+}

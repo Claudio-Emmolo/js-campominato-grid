@@ -29,7 +29,6 @@ btn.addEventListener('click', function(){
         })
         AddDiv.innerText = (i + 1);
         squareBox.append(AddDiv);
-
     }
     
 })
