@@ -13,6 +13,7 @@ div.square{
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 2px solid black;
+    cursor: crosshair;
 }
 
 div.square.active{

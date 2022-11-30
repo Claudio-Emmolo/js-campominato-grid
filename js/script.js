@@ -25,7 +25,7 @@ btn.addEventListener('click', function(){
         const AddDiv = getDivElement();
         AddDiv.addEventListener('click', function(){
             AddDiv.classList.toggle("active");
-            alert (i + 1)
+            console.log(i + 1)
         })
         AddDiv.innerText = (i + 1);
         squareBox.append(AddDiv);
