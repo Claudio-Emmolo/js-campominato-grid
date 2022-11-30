@@ -24,11 +24,12 @@ btn.addEventListener('click', function(){
     for (let i = 0 ; i < 100 ; i++){
         const AddDiv = getDivElement();
         AddDiv.addEventListener('click', function(){
-            console.log ("Hai cliccato");
+            AddDiv.classList.toggle("active");
+            alert (i + 1)
         })
         AddDiv.innerText = (i + 1);
         squareBox.append(AddDiv);
-    
+
     }
     
 })

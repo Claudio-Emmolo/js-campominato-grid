@@ -14,3 +14,7 @@ div.square{
     height: calc(100% / 10);
     border: 2px solid black;
 }
+
+div.square.active{
+    background-color: rgb(46, 137, 255);
+}
